@@ -1,1 +1,0 @@
-The height function has a big O of O(n). This is because height requires every node to be traverseda single time, plus a negligable constant of null nodes to be analyzed as well. There no necessity to compute backwards, nor is the previous node needed for the next node, facilitating the O(n) complexity.
